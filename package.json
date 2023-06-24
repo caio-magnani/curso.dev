@@ -1,25 +1,29 @@
 {
-  "name": "curso.dev",
-  "version": "1.0.0",
-  "description": "Repositório para os desafios do curso.dev",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/caio-magnani/clone-tabnews.git"
-  },
-  "author": "Caio Magnani",
-  "license": "",
-  "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "bugs": {
-    "url": "https://github.com/caio-magnani/clone-tabnews/issues"
-  },
-  "homepage": "https://github.com/caio-magnani/clone-tabnews#readme"
+    "name": "curso.dev",
+    "version": "1.0.0",
+    "description": "Repositório para os desafios do curso.dev",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "lint:check": "prettier --check .",
+        "lint:fix": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/caio-magnani/clone-tabnews.git"
+    },
+    "author": "Caio Magnani",
+    "license": "",
+    "dependencies": {
+        "next": "^13.1.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "bugs": {
+        "url": "https://github.com/caio-magnani/clone-tabnews/issues"
+    },
+    "homepage": "https://github.com/caio-magnani/clone-tabnews#readme",
+    "devDependencies": {
+        "prettier": "^2.8.8"
+    }
 }
