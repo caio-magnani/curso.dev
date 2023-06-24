@@ -4,4 +4,8 @@ Repositório para os desafios do curso.dev
 
 ## Desafios:
 
-- [] Criar um site com apenas uma frase em uma URL com uma frase que impacte uma pessoa.
+### Desafio 1
+- [x] Criar um site com apenas uma frase em uma URL com uma frase que impacte uma pessoa.
+
+### Desafio 2
+- [ ] Milestone 0 - Em Construção
